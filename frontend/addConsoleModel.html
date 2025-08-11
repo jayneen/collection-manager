@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Create Record</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/sketchy/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <h2 class="mt-5 mb-3">TCSS460: Assignment 3 - Video Game Memoriabilia Manager</h2>
+    <nav class="flex-column align-items-start">
+        <div class="container">
+            <ul class="nav nav-tabs nav-fill">
+                <li class="nav-item"><a class="nav-link" href="viewGames.html">View</a></li>
+                <li class="nav-item"><a class="nav-link active" href="addGameCopy.html">Add</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container mb-5 pb-5">
+        <nav class="flex-column align-items-start">
+            <div class="container">
+                <ul class="nav nav-pills">
+                    <li class="nav-item"><a class="nav-link" href="addGameCopy.html">Game Copy</a></li>
+                    <li class="nav-item"><a class="nav-link" href="addGameName.html">Game Name</a></li>
+                    <li class="nav-item"><a class="nav-link" href="addConsoleCopy.html">Console Copy</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="addConsoleModel.html">Console Model</a></li>
+                </ul>
+            </div>
+        </nav>
+        <h4>Add a Console Model</h4>
+        <form id="create-form">
+            <!-- model name -->
+            <div class="form-group">
+                <label for="modelNameInput">Model Name</label>
+                <input type="text" class="form-control" id="modelNameInput" name="modelName" placeholder="Enter a model name">
+            </div>
+
+            <!-- model number -->
+            <div class="form-group">
+                <label for="modelNumberInput">Model Number</label>
+                <input type="number" class="form-control" id="modelNumberInput" name="modelNumber" placeholder="Enter the model number">
+            </div>
+
+            <!-- console publisher -->
+            <div class="form-group">
+                <label for="consolePublisherInput">Console Publisher</label>
+                <input type="text" class="form-control" id="consolePublisherInput" name="consolePublisher" placeholder="Enter a console publisher">
+            </div>
+
+            <button type="submit" class="btn btn-success">Add Console Model</button>
+        </form>
+        <div id="create-msg"></div>
+        <script src="js/addConsoleModel.js"></script>
+
+    </div>
+    </div>
+    <footer></footer>
+</body>
+
+</html>

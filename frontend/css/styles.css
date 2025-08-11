@@ -1,0 +1,32 @@
+body {
+  width: 85%;
+  margin: 0 auto;
+}
+
+h2,
+h4 {
+  font-weight: bold;
+  color: black;
+}
+
+h2 {
+  padding-left: 10px;
+}
+
+table {
+  width: 100%;
+  table-layout: fixed;
+}
+
+td,
+th {
+  max-width: 250px;
+}
+
+.nav-tabs.no-border {
+  border-bottom: none;
+}
+
+.add-more-toggle {
+  margin-left: 20px;
+}
