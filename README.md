@@ -8,7 +8,7 @@ A full-stack application for a video game collection database manager using Node
 
 ### Set-up:
 1) Start Apache and MySQL in XAMPP Control Panel
-2) Import game_collection.sql in phpMyAdmin: use credentials "testuser" and "mypassword" or adjust the ones in config.js
+2) Import game_collection.sql in phpMyAdmin: use credentials "testuser" and "mypassword" or adjust the ones in config.js. This project only uses the game_collection (MySQL) database and not the original MSSQL one, which is also provided.
 3) Install dependencies in project folder: npm install express mysql cors body-parser
 
 ### Running Instructions: 
